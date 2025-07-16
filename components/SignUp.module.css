@@ -25,12 +25,12 @@
     margin: 10px auto;
 }
 .btn:hover{
-    background-color: rgb(41, 139, 226);
+    background-color: rgb(32, 236, 76);
 }
 .btn1{
     cursor: pointer;
     padding: 0px 5px;
   }
   .btn1:hover{
-   color: rgb(41, 139, 226);
+   color: rgb(45, 240, 27);
   }
