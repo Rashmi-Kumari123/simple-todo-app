@@ -33,7 +33,7 @@ Navigate between **Login** and **Sign-Up** pages (UI mockup only; no backend aut
 
 Explore the deployed app here:
 
-👉 [To-Do List Live Demo](https://to-do-list-naivedya-baranwals-projects.vercel.app/)
+👉 [To-Do List Live Demo](https://simple-todo-m3uzo6s76-rashmi-kumaris-projects-567088f5.vercel.app/)
 
 ---
 
