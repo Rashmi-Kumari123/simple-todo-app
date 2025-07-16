@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    margin: 20px 200px;
+    border:2px solid rgb(30, 101, 187);
+    padding: 20px;
+   }
+.btn{
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #0f4a67;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px auto;
+}
+.btn:hover{
+    background-color: rgb(41, 139, 226);
+}
+.btn1{
+    cursor: pointer;
+    padding: 0px 5px;
+  }
+  .btn1:hover{
+   color: rgb(41, 139, 226);
+  }

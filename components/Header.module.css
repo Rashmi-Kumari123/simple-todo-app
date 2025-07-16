@@ -1,0 +1,82 @@
+.container{
+    background-color: #1c2428;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+    font-size: larger;
+}
+.list{
+    display: flex;
+    gap: 30px;
+     
+}
+.li:hover{  
+    color: #0f4a67;
+    background-color: white;
+    padding: 0px 3px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.modalBackdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modalHeader{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .closeModal{
+    background-color: #0f4a67;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .closeModal:hover{
+    background-color: rgb(41, 139, 226);
+  }
+  .modalContent {
+    background-color: rgb(247, 249, 250);
+    padding: 30px;
+    border-radius: 12px;
+    position: relative;
+    width: 350px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+  }
+  .modalFooter{
+    display: flex;
+    justify-content:center;
+  }
+  .btn1{
+    cursor: pointer;
+    padding: 0px 5px;
+  }
+  .btn1:hover{
+   color: rgb(41, 139, 226);
+  }
+  .btn:hover{
+    background-color: rgb(13, 128, 138);
+    border-radius: 5px;
+    margin: 0px 5px;
+    color: white;
+  }
+
+  @media (max-width:900px) {
+    .media{
+      display: none;
+    }
+  }
